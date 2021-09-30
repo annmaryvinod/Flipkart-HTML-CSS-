@@ -78,12 +78,16 @@ body{
 }
 .search input{
    height: 25px; 
-   outline: none;
+   border: none;
+   padding: 2%;
+   margin-top: 1%;
 }
 button.magnify{
-    outline: none;
+    border: none;
     background-color: #fff;
     height: 31px;
+    padding-right: 3%;
+    padding-top: 1%;
 }
 .both{
     background-color: #fff;  
@@ -280,6 +284,8 @@ padding: 15px;
     padding: 8%;
     padding-top: 1%;
     border: 0.5px solid #e0e0e0;
+    border-right: none;
+    border-left: none;
     height: 400px;
 }
 .head222{
@@ -339,40 +345,21 @@ padding: 15px;
     padding-bottom: 0;
     padding-top: 0;
 }
+.numb1:hover{
+    background-color: #2874f0;
+    border-radius: 50px;
+    padding: 3%;
+}
 .nxt111{
     padding:12% ;
     padding-bottom: 0;
     padding-top: 0;
+    color: #2874f0;
 }
 
 /* Mid 2 */
-/* .mid2{
-    display: flex;
-    background-color: #fff;
-    height: 60px;
-    padding: 2%;
-    margin-left: 15.5%;
-    margin-top: 1%;
-}
- .quest{
-    font-weight:600;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 10px;
-} 
-.yb_11w{
-    background-color: #fff;
-    border: 1px solid #d7d7d7;
-    border-radius: 1px;
-    padding: 50%;
-}
-.but1{
-    white-space: nowrap;
-    margin-left: 100%;
-    margin-
-} */
 .mid2{
-    margin-left: 15.5%;
+    margin-left: 18.5%;
     margin-top: 0.75%;
     background-color: #fff;
     height: 80px;
@@ -450,6 +437,7 @@ padding: 15px;
     margin: 0.75%;
     margin-top: 0;
     margin-left: 2%;
+    width: 300px;
 }
 .bb1{
     display: flex;
@@ -606,6 +594,10 @@ padding: 15px;
     margin-top: 4%;
     
 }
+.flex2 .icon-arrow-down{
+    margin-top: 8%;
+    padding-right: 15%;
+}
 .box5{
     background-color:#fff ; 
     margin-top: 0.75%;   
@@ -618,6 +610,15 @@ padding: 15px;
     color: #000#fff;
     cursor: pointer;
     font-family: Roboto,Arial,sans-serif;
+}
+.ram1 .icon-arrow-down{
+    margin-top: 3%;
+    padding-right: 15%;
+}
+.box7{
+    display: flex;
+    flex-flow: column;
+    height: 200px;
 }
 .box5, .box6, .box7{
     background-color:#fff ; 
@@ -636,17 +637,27 @@ padding: 15px;
     cursor: pointer;
     font-family: Roboto,Arial,sans-serif;
 }
+.brand1 .icon-arrow-down{
+    margin-top: 3%;
+    padding-right: 15%;
+}
+.brand{
+    padding: 5%;
+}
 .crossclear{
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
 }
 .zero{
 z-index: -4656758757;
 }
 .clearspan{
   margin: 0;  
+  margin-left: 10%;
   white-space: nowrap;
   color:#aaa;
 }
@@ -660,8 +671,8 @@ z-index: -4656758757;
 .search22{
     display: flex;
     margin-top: 5%;
-    border: none;
-    border-bottom: 1px solid gray;
+    margin-left: 5%;
+    outline: none;
   
 }
 .check22{
@@ -673,11 +684,15 @@ z-index: -4656758757;
     color: #000#fff;
     cursor: pointer;
     font-family: Roboto,Arial,sans-serif;
+    margin-top: 10%;
+}
+.check22 .vsa label{
+    margin-left: 2%;
 }
 .vsa{
     display: flex;
     flex-flow: row;
-    padding: 2%;
+    padding: 5%;
     margin-left: 3%;
 }
 .more22{
@@ -707,10 +722,21 @@ z-index: -4656758757;
 .flex3{
     margin-left: 3%;
 }
+.custra{
+    padding: 5%;
+}
+.flex3 .icon-arrow-down{
+    margin-top: 3%;
+    padding-right: 15%;
+}
+.pv11{
+    padding: 2%;
+}
 .check23{
     margin-left: 3%;
-    margin-top: 8%;
+    padding: 4%;
 }
+
 .box{
     background-color:#fff ; 
     margin-top: 0.5%; 
