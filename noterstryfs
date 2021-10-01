@@ -1,0 +1,27 @@
+<h2>Accordion</h2>
+
+                    <button class="accordion">Section 1</button>
+                    <div class="panel">
+                        <input type="checkbox" id="6gb" name="6gb" value="6gb">
+                        <label for="6gb">6 GB & Above</label><br>
+                        <input type="checkbox" id="4gb" name="4gb" value="4gb">
+                        <label for="4gb">4 GB</label><br>
+                        <input type="checkbox" id="3gb" name="3gb" value="3gb">
+                        <label for="3gb">3 GB</label><br>
+                        <input type="checkbox" id="2gb" name="2gb" value="2gb">
+                        <label for="2gb">2 GB</label><br>
+                    </div>
+
+                    <button class="accordion">Section 2</button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+
+                    <button class="accordion">Section 3</button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>

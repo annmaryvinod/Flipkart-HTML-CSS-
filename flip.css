@@ -1,3 +1,4 @@
+/* For All! */
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +6,7 @@
 }
 
 
-
+                                                                            /* Main code */
 body{
     background-color:#f0f0f0;
 }
@@ -40,8 +41,7 @@ body{
     display: flex;
     flex-flow: row;
     justify-content: center;
-
-}opt
+}
 .icon{
     display: flex;
     flex-flow:column;
@@ -81,6 +81,10 @@ body{
    border: none;
    padding: 2%;
    margin-top: 1%;
+}
+.search input:focus{
+    border: none;
+    outline: none;
 }
 button.magnify{
     border: none;
@@ -182,14 +186,16 @@ transform: rotate(270deg);
 
 
 /* Middle Section */
-
+.middlebar{
+    margin-left: 0.75%;
+}
 .majorflex{
     display: flex;
     margin-top:5%;
 }
 .mainaside{
     display:flex;
-    flex-flow: column;
+    flex-flow: row;
 }
 .felxphone{
     display: flex
@@ -281,6 +287,7 @@ padding: 15px;
 }
 .swatorder{
     display: flex;
+    justify-content: space-around;
     padding: 8%;
     padding-top: 1%;
     border: 0.5px solid #e0e0e0;
@@ -357,45 +364,11 @@ padding: 15px;
     color: #2874f0;
 }
 
-/* Mid 2 */
-.mid2{
-    margin-left: 18.5%;
-    margin-top: 0.75%;
-    background-color: #fff;
-    height: 80px;
-}
-.mid2 .choice{
-    display: flex;
-    flex-flow: row;
-    padding: 2%;
-}
-.ansyn111{
-    display: flex;
-    flex-flow: row;
-    margin-left: 5%;
-}
-.but1{
-    white-space: nowrap;
-}
-.yb_11w{
-    padding: 80%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    background-color: #fff;
-    border: 1px solid #d7d7d7;
-}
-.quest{
-    font-size: 16px;
-    font-weight: bold;
-    color: #000#fff;
-    cursor: pointer;
-    font-family: Roboto,Arial,sans-serif;
-}
-/* Mid 2 End! */
+
                                                                               /* ---- */
-.move{
+/* .move{
     padding-left:25%;
-}
+} */
 .priced11{
     font-size: 35px;
     font-weight: 700;
@@ -424,9 +397,8 @@ padding: 15px;
 
 }
 /* Middle Section End! */
-/* ------------------------------------------------------------------------ */
 
-/*Arrow! */
+
 
 
 
@@ -436,7 +408,7 @@ padding: 15px;
     flex-flow: column;
     margin: 0.75%;
     margin-top: 0;
-    margin-left: 2%;
+    margin-left: 7%;
     width: 300px;
 }
 .bb1{
@@ -602,7 +574,8 @@ padding: 15px;
     background-color:#fff ; 
     margin-top: 0.75%;   
 }
-.ram, .drop{
+
+.ram{
     margin-left: 5%;
     padding: 3%;
     font-size: 12px;
@@ -614,6 +587,9 @@ padding: 15px;
 .ram1 .icon-arrow-down{
     margin-top: 3%;
     padding-right: 15%;
+}
+.ram1{
+    height: 40px;
 }
 .box7{
     display: flex;
@@ -763,6 +739,12 @@ z-index: -4656758757;
     font-size: 15px;
 }
 
+.help_4{
+    display: flex;
+    flex-flow:row;
+}
+
+
 /* Footer */
 footer{
     background-color: #172337;
@@ -775,6 +757,8 @@ footer{
 .bow1{
     display: flex;
     flex-flow: column;
+    flex-grow: 1;
+    flex-shrink: 1;
     padding: 5%;
 }
 .section111{
@@ -788,5 +772,77 @@ footer{
     justify-content:space-around;
     padding: 2%;
 }
+     
+
+
+
+
+
+
+
+.dropbtn {
+  
+  color: #000;
+ 
+  font-size: 16px;
+  border: none;
+  margin-right: 0;
+  background-color: #fff;
+}
+.dropbtn:hover{
+    color: #2874f0;
+}
+
+
+.dropdown{
+    padding: 0;
+    margin-top: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+/* .dropdown-content a:hover {background-color: #ddd;} */
+
+/* .dropdown:hover .dropdown-content {display: block;} */
+
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+.flc1h{
+    padding: 5%;
+    white-space: nowrap;
+    margin-top: 12%;
+    color: #000;
+    font-weight: bold;
+}
+.flexc1 a{
+    color: #878787;
+    font-size: 15px;
+}
+.df2{
+    background-color:#e0e0e0;
+}
+.df2 a{
+    color: #fff;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
